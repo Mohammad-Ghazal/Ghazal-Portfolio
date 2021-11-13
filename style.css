@@ -1,0 +1,45 @@
+body {
+  font-size: 3.2vw;
+}
+
+h1 {
+  color: black;
+  /* font-size: 18rem; */
+
+  -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
+    drop-shadow(-0.125vw -0.25vw 0 #bf4050);
+  filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
+    drop-shadow(-0.25vw -0.25vw 0 #bf4050);
+}
+h3 {
+  -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #000)
+    drop-shadow(-0.125vw -0.25vw 0 #000);
+  filter: drop-shadow(0.125vw 0.125vw 0#000)
+    drop-shadow(-0.125vw -0.25vw 0 #000);
+  color: #bf4050;
+  color: red;
+  border-radius: 3%;
+  width: max-content;
+  padding: 0.5%;
+  /* font-size: 18rem; */
+}
+h4 {
+  background-color: #030101;
+  color: white;
+  border: 2vw 2vw black;
+  width: max-content;
+}
+
+label {
+  font-weight: bold;
+}
+.card {
+  margin: 3vw;
+
+}
+.card-body{
+    border: 1px 1px 1px black !important;
+    width: max-content;
+    width: 45vw;
+    text-align: justify;
+}
