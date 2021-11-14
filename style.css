@@ -4,8 +4,6 @@ body {
 
 h1 {
   color: black;
-  /* font-size: 18rem; */
-
   -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
     drop-shadow(-0.125vw -0.25vw 0 #bf4050);
   filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
@@ -45,7 +43,7 @@ label {
 .ancore {
   position: fixed;
   right: 0;
-  top:0vh;
+  top: 9vh;
   z-index: 11;
   width: 15%;
 }
@@ -54,4 +52,45 @@ label {
   position: fixed;
   right: 10%;
   bottom: 0;
+}
+.ghazal-name {
+  margin: 1vw;
+}
+
+ul {
+  margin-top: 0;
+  list-style: none;
+}
+.sidenav {
+  top: 0;
+  left: 0;
+  right: 0;
+  gap: 3vw;
+  z-index: 10;
+  display: flex;
+  font-size: 2vw;
+  position: fixed;
+  text-align: justify;
+  background-color: silver;
+}
+
+.content {
+  margin-top: 5vh;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+ul.sidenav li a.active {
+  background-color: red;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
