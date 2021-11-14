@@ -1,13 +1,24 @@
 body {
   font-size: 3.2vw;
 }
+.content {
+  margin-top: 5vh;
+  padding: 2vw;
+}
 
 h1 {
-  color: black;
-  -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
-    drop-shadow(-0.125vw -0.25vw 0 #bf4050);
-  filter: drop-shadow(0.125vw 0.125vw 0 #bf4050)
-    drop-shadow(-0.25vw -0.25vw 0 #bf4050);
+  color: white;
+  -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #080001)
+    drop-shadow(-0.125vw -0.25vw 0 #080001);
+  filter: drop-shadow(0.225vw 0.225vw 0 #bf4050)
+    drop-shadow(-0.25vw -0.25vw 0 #080001);
+}
+
+h7{
+  color: rgba(156, 107, 107, 0.712);
+  position: fixed;
+  left: 0;
+  padding: 1vw;
 }
 h3 {
   -webkit-filter: drop-shadow(0.125vw 0.125vw 0 #000)
@@ -31,15 +42,7 @@ h4 {
 label {
   font-weight: bold;
 }
-.card {
-  margin: 3vw;
-}
-.card-body {
-  border: 1px 1px 1px black !important;
-  width: max-content;
-  width: 45vw;
-  text-align: justify;
-}
+
 .ancore {
   position: fixed;
   right: 0;
@@ -54,7 +57,11 @@ label {
   bottom: 0;
 }
 .ghazal-name {
-  margin: 1vw;
+  position: fixed;
+  left: 0;
+  padding: 0.9vw;
+  color: white;
+  font-size: 2.04vw;
 }
 
 ul {
@@ -65,22 +72,21 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  gap: 3vw;
+  gap: 1vw;
   z-index: 10;
   display: flex;
   font-size: 2vw;
   position: fixed;
   text-align: justify;
-  background-color: silver;
+  background-color: #343a40;
 }
 
-.content {
-  margin-top: 5vh;
+ul.sidenav {
+  padding-left: 20vw;
 }
-
 ul.sidenav li a {
   display: block;
-  color: #000;
+  color: rgb(134, 131, 131);
   padding: 1vw;
   text-decoration: none;
 }
@@ -95,7 +101,21 @@ ul.sidenav li a:hover:not(.active) {
   color: white;
 }
 
+.card {
+  margin: 3vw;
+  border: 1px 1px 1px black ;
+  border-style: dashed;
+  width: 45vw;
 
+
+}
+.card-body {
+  text-align: justify;
+  margin: 2vw; 
+}
+.prjImg{
+   width: 100%;
+}
 .fade-in-image {
   animation: fadein 2s;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
